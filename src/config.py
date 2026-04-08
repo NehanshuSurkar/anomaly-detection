@@ -22,6 +22,6 @@ class Config:
     BATCH_SIZE   = 8
     EPOCHS       = 40
     SSIM_WEIGHT  = 0.15
-    THRESHOLD_K  = 2.5
+    THRESHOLD_K  = 3
     CLASSES      = ["Normal", "Fighting", "Accident", "Theft"]
     NUM_CLASSES  = 4
