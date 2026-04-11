@@ -15,7 +15,7 @@ from inference import get_adaptive_threshold, compute_scores_on_folder
 cfg = Config()
 
 
-# ── Utility ──────────────────────────────────────────────────────────────────
+# ── Utility ───────────────────────────────────────────────────────
 
 def frames_to_time(frame_idx, fps):
     seconds = frame_idx / max(fps, 1)
